@@ -1,0 +1,463 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="confabular.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Confabular</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="AdminLTE/plugins/fontawesome-free/css/all.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="AdminLTE/dist/css/adminlte.min.css">
+
+
+    <style>
+        .btnAdd {
+            background-image: url("imgs/add.gif");
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-left: 20px; /*ajuste o valor para alinhar a imagem*/
+        }
+
+        .btnRem {
+            background-image: url("imgs/rem.gif");
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-left: 20px; /*ajuste o valor para alinhar a imagem*/
+        }
+
+        .corner-image {
+            position: fixed !important;
+            bottom: 0;
+            right: 0;
+            width: 100px; /* altere de acordo com o tamanho da imagem */
+            height: 100px; /* altere de acordo com o tamanho da imagem */
+            background-image: url("C:\dir\Dev\confabular\confabular\imgs\OldManInfo.gif") !important;
+            background-size: cover !important;
+        }
+    </style>
+</head>
+<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+    <div class="corner-image"></div>
+
+    <form id="form1" runat="server">
+    
+        <div class="wrapper">
+
+            <!-- Preloader -->
+            <div class="preloader flex-column justify-content-center align-items-center">
+                <img class="animation__wobble" src="AdminLTE/dist/img/candle.png" alt="" height="60" width="60">
+            </div>
+
+            <!-- Navbar -->
+
+            <nav class="main-header navbar navbar-expand navbar-dark">
+                <!-- Left navbar links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="pushmenu" href="index.aspx" role="button"><i class="fas fa-bars"></i></a>
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <a href="index.aspx" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item d-none d-sm-inline-block">
+                        <!-- <a href="#" class="nav-link">Sobre</a> -->
+                    </li>
+                </ul>
+
+                <!-- Right navbar links -->
+                <ul class="navbar-nav ml-auto">
+
+                    <!-- Messages Dropdown Menu -->
+                    <asp:Panel ID="Panel_Navbar_notification" runat="server" Visible="False">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown" href="#">
+                                <i class="far fa-comments"></i>
+                                <span class="badge badge-danger navbar-badge">3</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                                <a href="#" class="dropdown-item">
+
+                                    <!-- Message Start -->
+                                    <div class="media">
+                                        <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                        <div class="media-body">
+                                            <h3 class="dropdown-item-title">Brad Diesel                 
+                                            <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                                            </h3>
+                                            <p class="text-sm">Call me whenever you can...</p>
+                                            <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i>4 Hours Ago</p>
+                                        </div>
+                                    </div>
+                                    <!-- Message End -->
+
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">
+                                    <!-- Message Start -->
+                                    <div class="media">
+                                        <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                        <div class="media-body">
+                                            <h3 class="dropdown-item-title">John Pierce
+                 
+                                            <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                                            </h3>
+                                            <p class="text-sm">I got your message bro</p>
+                                            <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i>4 Hours Ago</p>
+                                        </div>
+                                    </div>
+                                    <!-- Message End -->
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">
+                                    <!-- Message Start -->
+                                    <div class="media">
+                                        <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                        <div class="media-body">
+                                            <h3 class="dropdown-item-title">Nora Silvester
+                 
+                                            <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                            </h3>
+                                            <p class="text-sm">The subject goes here</p>
+                                            <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i>4 Hours Ago</p>
+                                        </div>
+                                    </div>
+                                    <!-- Message End -->
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                            </div>
+                        </li>
+
+                        <!-- Notifications Dropdown Menu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-toggle="dropdown" href="#">
+                                <i class="far fa-bell"></i>
+                                <span class="badge badge-warning navbar-badge">15</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                                <span class="dropdown-item dropdown-header">15 Notifications</span>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">
+                                    <i class="fas fa-envelope mr-2"></i>4 new messages           
+                                <span class="float-right text-muted text-sm">3 mins</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">
+                                    <i class="fas fa-users mr-2"></i>8 friend requests           
+                                <span class="float-right text-muted text-sm">12 hours</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item">
+                                    <i class="fas fa-file mr-2"></i>3 new reports           
+                                <span class="float-right text-muted text-sm">2 days</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                            </div>
+                        </li>
+                    </asp:Panel>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!-- /.navbar -->
+
+            <!-- Main Sidebar Container -->
+            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                <!-- Brand Logo -->
+                <a href="index.aspx" class="brand-link">
+                    <img src="AdminLTE/dist/img/candle.png" alt="" class="brand-image img-circle elevation-3" style="opacity: .8">
+                    <span class="brand-text font-weight-light">Confabular</span>
+                </a>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <!-- Sidebar user panel (optional) -->
+                    <asp:Panel ID="Panel_login_top" runat="server">
+                        <a href="./Login.aspx" class="d-block">
+                            <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                                <div class="image">
+                                    <asp:Label ID="lblLoginImg" runat="server" Text=""></asp:Label>
+                                </div>
+                                <div class="info">
+                                    Login
+                                </div>
+                            </div>
+                        </a>
+                    </asp:Panel>
+                    <asp:Panel ID="Panel_UserBtn" runat="server" Visible="False">
+                        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                            <a href="./Config.aspx" class="d-block">
+                                <div class="image">
+                                    <asp:Image ID="imgAvatar" runat="server" class="img-circle elevation-2" />
+                                </div>
+                                <div class="info">
+                                    <asp:Label ID="Btn_User" runat="server" Text=""></asp:Label>
+                                </div>
+                            </a>
+                        </div>
+                    </asp:Panel>
+                    <asp:Label ID="lblUser" runat="server" Text=""></asp:Label>
+
+                    <a href="./myBook.aspx" class="d-block">
+                        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                            <div class="image">
+                                <i class="nav-icon fas fa-book fa-2x"></i>
+                            </div>
+                            <div class="info">
+                                Meus Livros-Jogos
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- SidebarSearch Form -->
+                    <div class="form-inline">
+                        <div class="input-group" data-widget="sidebar-search">
+                            <asp:TextBox ID="txtPesq" placeholder="Pesquisar" CssClass="form-control" runat="server"></asp:TextBox>
+                            <div class="input-group-append">
+                                <button id="btnPesquisa" class="btn btn-sidebar" runat="server" onserverclick="btnPesquisa_Click">
+                                    <i class="fas fa-search fa-fw"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar Menu -->
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                            <!-- Add icons to the links using the .nav-icon class
+                                with font-awesome or any other icon font library -->
+                            <asp:Panel ID="Panel_Admin" runat="server" Visible="False">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">
+                                        <i class="fa fa-cog" aria-hidden="true"></i>
+                                        <p>
+                                            Administração               
+                                        <i class="right fas fa-angle-left"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li style="padding-left: 15px;" class="nav-item">
+                                            <a href="./CadUser.aspx" class="nav-link">
+                                                <p>Cadastro de Usuários</p>
+                                            </a>
+                                        </li>
+                                        <li style="padding-left: 15px;" class="nav-item">
+                                            <a href="./CadTipoUser.aspx" class="nav-link">
+                                                <p>Tipo de Usuários</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview">
+                                        <li style="padding-left: 15px;" class="nav-item">
+                                            <a href="./CadGenero.aspx" class="nav-link">
+                                                <p>Gênero Literário</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </asp:Panel>
+                            <asp:Panel ID="Panel_MinhasCoisas" runat="server" Visible="False">
+                                <!--    <li class="nav-item">
+                                    <div class="nav-link">
+                                        <i class="nav-icon fas fa-book"></i>
+                                        <p>
+                                            Meus Livros               
+                                        </p>
+                                    </div>
+                                   <asp:DropDownList ID="DropMeusLivros" runat="server" Width="100%">
+                                           </asp:DropDownList>  
+                                           
+                                </li>-->
+                                <!--   <li style="padding-left: 4px;" class="nav-item">
+                                    <a href="pages/calendar.html" class="nav-link">
+                                        <i class="fa fa-play-circle fa-lg" aria-hidden="true"></i>
+                                        <p>
+                                            &nbsp;Continue...               
+                                        <span class="badge badge-info right">0</span>
+                                        </p>
+                                    </a>
+                                </li>-->
+                                <li class="nav-item">
+                                    <a href="./Prediletos.aspx" class="nav-link">&nbsp;<i class="fa fa-star" aria-hidden="true"></i>
+                                        <p>&nbsp;Prediletos</p>
+                                    </a>
+                                </li>
+                                <!-- <li style="padding-left: 4px;" class="nav-item">
+                                    <a href="pages/calendar.html" class="nav-link">
+                                        <i class="fa fa-users"></i>
+                                        <p>&nbsp;&nbsp;Amigos</p>
+                                    </a>
+                                </li>
+                                    -->
+                                <li class="nav-item">
+                                    <a href="pages/calendar.html" class="nav-link">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <!--Avatares -->
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </asp:Panel>
+                            <!-- Sobre / Info Greal -->
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link active">
+                                    <i class="fa fa-life-ring" aria-hidden="true"></i>
+                                    <p>
+                                        Sobre               
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li style="padding-left: 15px;" class="nav-item">
+                                        <a href="./diretriz.aspx" class="nav-link">
+                                            <p>Diretrizes de Conteúdo</p>
+                                        </a>
+                                    </li>
+                                    <li style="padding-left: 15px;" class="nav-item">
+                                        <a href="./politica.aspx" class="nav-link">
+                                            <p>Política de Privacidade</p>
+                                        </a>
+                                    </li>
+                                    <li style="padding-left: 15px;" class="nav-item">
+                                        <a href="./termos.aspx" class="nav-link">
+                                            <p>Termos e Condições</p>
+                                        </a>
+                                    </li>
+                                    <li style="padding-left: 15px;" class="nav-item">
+                                        <a href="./tutorial.aspx" class="nav-link">
+                                            <p>Tutorial</p>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                    </nav>
+                    <!-- /.sidebar-menu -->
+                </div>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <div class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <h1 class="m-0">
+                                    <asp:ContentPlaceHolder ID="Titulo" runat="server"></asp:ContentPlaceHolder>
+                                </h1>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-sm-6">
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+                <!-- /.content-header -->
+
+                <!-- Main content -->
+                <section class="content">
+                    <div class="container-fluid">
+                        <!-- Info boxes -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <!-- <h5 class="card-title">Sistema</h5> -->
+                                        <asp:ContentPlaceHolder ID="Corpo" runat="server"></asp:ContentPlaceHolder>
+                                    </div>
+                                    <!-- /.card-header -->
+                                    <div class="card-body">
+
+                                        <!-- /.row -->
+                                    </div>
+                                    <!-- ./card-body -->
+
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/. container-fluid -->
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
+
+            <!-- Main Footer -->
+            <footer class="main-footer">
+                <div class="row">
+                    <div class="col-md-4" style="text-align: left">
+                        <!--   <a href="https://gamejolt.com/games/confabular/729197" target="_blank">
+                        <asp:Image ID="Imggamejolt" runat="server" /></a><br> -->
+
+                    </div>
+                    <div class="col-md-4" style="text-align: center">
+                    </div>
+                    <div class="col-md-4" style="text-align: right">
+                        <b>Copyright &copy; 2022 .</b>
+                        All rights reserved. 
+                            &nbsp;<b>Version</b> 1.0.b   
+                            &nbsp;
+                        <asp:Image ID="imgBR" runat="server" />
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- REQUIRED SCRIPTS -->
+        <!-- jQuery -->
+        <script src="AdminLTE/plugins/jquery/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- overlayScrollbars -->
+        <script src="AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+        <!-- AdminLTE App -->
+        <script src="AdminLTE/dist/js/adminlte.js"></script>
+
+        <!-- PAGE PLUGINS -->
+        <!-- jQuery Mapael -->
+        <script src="AdminLTE/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+        <script src="AdminLTE/plugins/raphael/raphael.min.js"></script>
+        <script src="AdminLTE/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+        <script src="AdminLTE/plugins/jquery-mapael/maps/usa_states.min.js"></script>
+        <!-- ChartJS -->
+        <script src="AdminLTE/plugins/chart.js/Chart.min.js"></script>
+
+        <!-- AdminLTE for demo purposes -->
+        <script src="AdminLTE/dist/js/demo.js"></script>
+        <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+        <script src="AdminLTE/dist/js/pages/dashboard2.js"></script>
+    </form>
+</body>
+</html>

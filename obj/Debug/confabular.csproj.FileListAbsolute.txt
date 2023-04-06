@@ -1,0 +1,228 @@
+C:\Users\Celio\source\repos\confabular\confabular\bin\confabular.dll.config
+C:\Users\Celio\source\repos\confabular\confabular\bin\confabular.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\confabular.pdb
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\csc.exe
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\csc.exe.config
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\csc.rsp
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\csi.exe
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\csi.rsp
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\System.AppContext.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\vbc.exe
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\vbc.exe.config
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\vbc.rsp
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\VBCSCompiler.exe
+C:\Users\Celio\source\repos\confabular\confabular\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Celio\source\repos\confabular\confabular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Celio\source\repos\confabular\confabular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Celio\source\repos\confabular\confabular\obj\Debug\confabular.csproj.AssemblyReference.cache
+C:\Users\Celio\source\repos\confabular\confabular\obj\Debug\confabular.csproj.CoreCompileInputs.cache
+C:\Users\Celio\source\repos\confabular\confabular\obj\Debug\confabular.csproj.CopyComplete
+C:\Users\Celio\source\repos\confabular\confabular\obj\Debug\confabular.dll
+C:\Users\Celio\source\repos\confabular\confabular\obj\Debug\confabular.pdb
+C:\dir\confabular - bkp\confabular\bin\confabular.dll.config
+C:\dir\confabular - bkp\confabular\bin\confabular.dll
+C:\dir\confabular - bkp\confabular\bin\confabular.pdb
+C:\dir\confabular - bkp\confabular\bin\roslyn\csc.exe
+C:\dir\confabular - bkp\confabular\bin\roslyn\csc.exe.config
+C:\dir\confabular - bkp\confabular\bin\roslyn\csc.rsp
+C:\dir\confabular - bkp\confabular\bin\roslyn\csi.exe
+C:\dir\confabular - bkp\confabular\bin\roslyn\csi.rsp
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dir\confabular - bkp\confabular\bin\roslyn\System.AppContext.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\System.Collections.Immutable.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\System.IO.FileSystem.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\System.Reflection.Metadata.dll
+C:\dir\confabular - bkp\confabular\bin\roslyn\vbc.exe
+C:\dir\confabular - bkp\confabular\bin\roslyn\vbc.exe.config
+C:\dir\confabular - bkp\confabular\bin\roslyn\vbc.rsp
+C:\dir\confabular - bkp\confabular\bin\roslyn\VBCSCompiler.exe
+C:\dir\confabular - bkp\confabular\bin\roslyn\VBCSCompiler.exe.config
+C:\dir\confabular - bkp\confabular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dir\confabular - bkp\confabular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dir\confabular - bkp\confabular\obj\Debug\confabular.csproj.AssemblyReference.cache
+C:\dir\confabular - bkp\confabular\obj\Debug\confabular.csproj.CoreCompileInputs.cache
+C:\dir\confabular - bkp\confabular\obj\Debug\confabular.csproj.CopyComplete
+C:\dir\confabular - bkp\confabular\obj\Debug\confabular.dll
+C:\dir\confabular - bkp\confabular\obj\Debug\confabular.pdb
+C:\dir\confabular\confabular\bin\confabular.dll.config
+C:\dir\confabular\confabular\bin\confabular.dll
+C:\dir\confabular\confabular\bin\confabular.pdb
+C:\dir\confabular\confabular\bin\roslyn\csc.exe
+C:\dir\confabular\confabular\bin\roslyn\csc.exe.config
+C:\dir\confabular\confabular\bin\roslyn\csc.rsp
+C:\dir\confabular\confabular\bin\roslyn\csi.exe
+C:\dir\confabular\confabular\bin\roslyn\csi.rsp
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\dir\confabular\confabular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dir\confabular\confabular\bin\roslyn\System.AppContext.dll
+C:\dir\confabular\confabular\bin\roslyn\System.Collections.Immutable.dll
+C:\dir\confabular\confabular\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\dir\confabular\confabular\bin\roslyn\System.IO.FileSystem.dll
+C:\dir\confabular\confabular\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\dir\confabular\confabular\bin\roslyn\System.Reflection.Metadata.dll
+C:\dir\confabular\confabular\bin\roslyn\vbc.exe
+C:\dir\confabular\confabular\bin\roslyn\vbc.exe.config
+C:\dir\confabular\confabular\bin\roslyn\vbc.rsp
+C:\dir\confabular\confabular\bin\roslyn\VBCSCompiler.exe
+C:\dir\confabular\confabular\bin\roslyn\VBCSCompiler.exe.config
+C:\dir\confabular\confabular\bin\DevExpress.Data.v22.1.dll
+C:\dir\confabular\confabular\bin\DevExpress.Office.v22.1.Core.dll
+C:\dir\confabular\confabular\bin\DevExpress.Printing.v22.1.Core.dll
+C:\dir\confabular\confabular\bin\DevExpress.RichEdit.v22.1.Core.dll
+C:\dir\confabular\confabular\bin\DevExpress.SpellChecker.v22.1.Core.dll
+C:\dir\confabular\confabular\bin\DevExpress.Web.ASPxHtmlEditor.v22.1.dll
+C:\dir\confabular\confabular\bin\DevExpress.Web.ASPxSpellChecker.v22.1.dll
+C:\dir\confabular\confabular\bin\DevExpress.Web.ASPxThemes.v22.1.dll
+C:\dir\confabular\confabular\bin\DevExpress.Web.Resources.v22.1.dll
+C:\dir\confabular\confabular\bin\DevExpress.Web.v22.1.dll
+C:\dir\confabular\confabular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dir\confabular\confabular\bin\DevExpress.Pdf.v22.1.Core.dll
+C:\dir\confabular\confabular\bin\DevExpress.Drawing.v22.1.dll
+C:\dir\confabular\confabular\bin\DevExpress.Pdf.v22.1.Drawing.dll
+C:\dir\confabular\confabular\bin\DevExpress.Data.v22.1.xml
+C:\dir\confabular\confabular\bin\DevExpress.Office.v22.1.Core.xml
+C:\dir\confabular\confabular\bin\DevExpress.Printing.v22.1.Core.xml
+C:\dir\confabular\confabular\bin\DevExpress.RichEdit.v22.1.Core.xml
+C:\dir\confabular\confabular\bin\DevExpress.SpellChecker.v22.1.Core.xml
+C:\dir\confabular\confabular\bin\DevExpress.Web.ASPxHtmlEditor.v22.1.xml
+C:\dir\confabular\confabular\bin\DevExpress.Web.ASPxSpellChecker.v22.1.xml
+C:\dir\confabular\confabular\bin\DevExpress.Web.v22.1.xml
+C:\dir\confabular\confabular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dir\confabular\confabular\bin\DevExpress.Pdf.v22.1.Core.xml
+C:\dir\confabular\confabular\bin\DevExpress.Pdf.v22.1.Drawing.xml
+C:\dir\confabular\confabular\bin\de\DevExpress.Data.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Data.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Data.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.Office.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Office.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Office.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.Printing.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Printing.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Printing.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.Web.ASPxHtmlEditor.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Web.ASPxHtmlEditor.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Web.ASPxHtmlEditor.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.Web.ASPxSpellChecker.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Web.ASPxSpellChecker.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Web.ASPxSpellChecker.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.Web.Resources.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Web.Resources.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Web.Resources.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.Web.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Web.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Web.v22.1.resources.dll
+C:\dir\confabular\confabular\bin\de\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\es\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\bin\ja\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\dir\confabular\confabular\obj\Debug\confabular.dll.licenses
+C:\dir\confabular\confabular\obj\Debug\confabular.csproj.CoreCompileInputs.cache
+C:\dir\confabular\confabular\obj\Debug\confabular.csproj.CopyComplete
+C:\dir\confabular\confabular\obj\Debug\confabular.dll
+C:\dir\confabular\confabular\obj\Debug\confabular.pdb
+C:\confabular\confabular\bin\confabular.dll.config
+C:\confabular\confabular\bin\confabular.dll
+C:\confabular\confabular\bin\confabular.pdb
+C:\confabular\confabular\bin\roslyn\csc.exe
+C:\confabular\confabular\bin\roslyn\csc.exe.config
+C:\confabular\confabular\bin\roslyn\csc.rsp
+C:\confabular\confabular\bin\roslyn\csi.exe
+C:\confabular\confabular\bin\roslyn\csi.rsp
+C:\confabular\confabular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\confabular\confabular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\confabular\confabular\bin\roslyn\System.AppContext.dll
+C:\confabular\confabular\bin\roslyn\System.Collections.Immutable.dll
+C:\confabular\confabular\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\confabular\confabular\bin\roslyn\System.IO.FileSystem.dll
+C:\confabular\confabular\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\confabular\confabular\bin\roslyn\System.Reflection.Metadata.dll
+C:\confabular\confabular\bin\roslyn\vbc.exe
+C:\confabular\confabular\bin\roslyn\vbc.exe.config
+C:\confabular\confabular\bin\roslyn\vbc.rsp
+C:\confabular\confabular\bin\roslyn\VBCSCompiler.exe
+C:\confabular\confabular\bin\roslyn\VBCSCompiler.exe.config
+C:\confabular\confabular\obj\Debug\confabular.csproj.AssemblyReference.cache
+C:\confabular\confabular\obj\Debug\confabular.dll.licenses
+C:\confabular\confabular\obj\Debug\confabular.csproj.CoreCompileInputs.cache
+C:\confabular\confabular\obj\Debug\confabular.csproj.CopyComplete
+C:\confabular\confabular\obj\Debug\confabular.dll
+C:\confabular\confabular\obj\Debug\confabular.pdb
+C:\dir\Dev\confabular\confabular\bin\confabular.dll.config
+C:\dir\Dev\confabular\confabular\bin\confabular.dll
+C:\dir\Dev\confabular\confabular\bin\confabular.pdb
+C:\dir\Dev\confabular\confabular\bin\roslyn\csc.exe
+C:\dir\Dev\confabular\confabular\bin\roslyn\csc.exe.config
+C:\dir\Dev\confabular\confabular\bin\roslyn\csc.rsp
+C:\dir\Dev\confabular\confabular\bin\roslyn\csi.exe
+C:\dir\Dev\confabular\confabular\bin\roslyn\csi.rsp
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dir\Dev\confabular\confabular\bin\roslyn\System.AppContext.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\System.Collections.Immutable.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\System.IO.FileSystem.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\System.Reflection.Metadata.dll
+C:\dir\Dev\confabular\confabular\bin\roslyn\vbc.exe
+C:\dir\Dev\confabular\confabular\bin\roslyn\vbc.exe.config
+C:\dir\Dev\confabular\confabular\bin\roslyn\vbc.rsp
+C:\dir\Dev\confabular\confabular\bin\roslyn\VBCSCompiler.exe
+C:\dir\Dev\confabular\confabular\bin\roslyn\VBCSCompiler.exe.config
+C:\dir\Dev\confabular\confabular\obj\Debug\confabular.csproj.AssemblyReference.cache
+C:\dir\Dev\confabular\confabular\obj\Debug\confabular.dll.licenses
+C:\dir\Dev\confabular\confabular\obj\Debug\confabular.csproj.CoreCompileInputs.cache
+C:\dir\Dev\confabular\confabular\obj\Debug\confabular.csproj.CopyComplete
+C:\dir\Dev\confabular\confabular\obj\Debug\confabular.dll
+C:\dir\Dev\confabular\confabular\obj\Debug\confabular.pdb
